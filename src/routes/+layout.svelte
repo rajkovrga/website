@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Footer from "$lib/components/layout/footer.svelte";
-	import "../../app.css";
+	import "../app.css";
 	import { page } from "$app/stores";
 	import AOS from 'aos';
 	import 'aos/dist/aos.css';
