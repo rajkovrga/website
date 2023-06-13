@@ -1,5 +1,5 @@
 <script lang="ts">
-    import myImg from "$lib/images/my-img.png";
+    import myImg from "$lib/assets/images/my-img.png";
 </script>
 
 <div

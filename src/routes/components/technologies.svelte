@@ -1,10 +1,10 @@
 <script lang="ts">
-    import svelte from "$lib/images/svelte.png";
-    import dotnet from "$lib/images/dotnet.png";
-    import jira from "$lib/images/jira.png";
-    import laravel from "$lib/images/laravel.png";
-    import postgres from "$lib/images/postgres.png";
-    import mongo from "$lib/images/mongo.png";
+    import svelte from "$lib/assets/images/svelte.png";
+    import dotnet from "$lib/assets/images/dotnet.png";
+    import jira from "$lib/assets/images/jira.png";
+    import laravel from "$lib/assets/images/laravel.png";
+    import postgres from "$lib/assets/images/postgres.png";
+    import mongo from "$lib/assets/images/mongo.png";
 </script>
 
 <div id="skills" class="flex justify-center  pt-32">
@@ -19,19 +19,19 @@
             <img class="w-24 h-24 grayscale hover:grayscale-0 transition duration-500 ease-in-out" src={dotnet} alt="dotnet" />
         </div>
         <div class="pb-10 flex justify-center">
-            <img class="w-24 h-24 grayscale hover:grayscale-0 transition duration-500 ease-in-out" src={laravel} alt="laravel" />
+            <img class="w-25 h-24 grayscale hover:grayscale-0 transition duration-500 ease-in-out" src={laravel} alt="laravel" />
         </div>
         <div class="pb-10 flex justify-center">
-            <img class="w-24 h-24 grayscale hover:grayscale-0 transition duration-500 ease-in-out" src={svelte} alt="svelte" />
+            <img class=" w-28 p-1 pb-0 h-24 grayscale hover:grayscale-0 transition duration-500 ease-in-out" src={svelte} alt="svelte" />
         </div>
         <div class="pb-10 flex justify-center">
             <img class="w-24 h-24 grayscale hover:grayscale-0 transition duration-500 ease-in-out" src={postgres} alt="sql" />
         </div>
         <div class="pb-10 flex justify-center">
-            <img class="h-24 w-24 grayscale hover:grayscale-0 transition duration-500 ease-in-out" src={mongo} alt="nosql" />
+            <img class="h-24 w-28 p-1 pb-0 grayscale hover:grayscale-0 transition duration-500 ease-in-out" src={mongo} alt="nosql" />
         </div>
         <div class="flex justify-center">
-            <img class="w-24 h-24 grayscale hover:grayscale-0 transition duration-500 ease-in-out" src={jira} alt="jira" />
+            <img class="w-28 h-24 grayscale hover:grayscale-0 transition duration-500 ease-in-out" src={jira} alt="jira" />
         </div>
     </div>
 </div>

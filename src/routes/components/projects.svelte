@@ -1,6 +1,6 @@
 <script lang="ts">
-    import blaster from "$lib/images/blaster-logo.jpg";
-    import easyWindows from "$lib/images/easy-windows-logo.png";
+    import blaster from "$lib/assets/images/blaster-logo.jpg";
+    import easyWindows from "$lib/assets/images/easy-windows-logo.png";
 </script>
 <div id="projects" class="flex justify-center pb-0 md:pb-20 pt-24">
     <div class="w-full xl:w-9/12 2xl:w-7/12">
