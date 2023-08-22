@@ -5,6 +5,43 @@
     </div>
     <div class="pl-10 pb-24">
       <ol class=" relative border-l border-blue-200 dark:border-gray-700 sm:w-4/5 w-full">
+        <li class="ml-4"  data-aos="fade-right" 
+        data-aos-easing="ease-in-sine">
+          <div
+            class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+          />
+          
+          <div class="flex justify-between flex-col sm:flex-row">
+            <time
+            class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+            >October 2022 - Present</time
+          >
+          <p
+            class="mb-1 text-sm font-normal leading-none text-blue-500 dark:text-blue-500 pr-10"
+            >Remote</p>
+          </div>
+          <div class="flex items-end">
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              Full Stack Developer & Project Coordinator
+            </h3>
+            <p class="text-lg pl-2 text-gray-900 dark:text-white">
+              - Vrga DEV
+            </p>
+          </div>
+          <p
+            class="text-base font-normal text-gray-500 dark:text-gray-400"
+          >
+          Creating and maintainces on Easy Windows client application.
+          </p>
+          <div class="flex items-start pt-1">
+            <h4 class="text-base italic text-gray-500 dark:text-gray-400">
+              Technologies:
+            </h4>
+            <p class="text-base pl-2 text-gray-700 dark:text-gray-400">
+              Laravel, Svelte, Postgresql, Redis
+            </p>
+          </div>
+        </li>
         <li class="mb-10 ml-4"  data-aos="fade-right" 
         data-aos-easing="ease-in-sine">
           <div
@@ -111,41 +148,6 @@
             </p>
           </div>
         </li>
-        <li class="mb-10 ml-4" data-aos="fade-right"
-        data-aos-easing="ease-in-sine">
-          <div
-            class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
-          />
-          
-          <div class="flex justify-between flex-col sm:flex-row">
-            <time
-            class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
-            >July 2021 - November 2021</time
-          >
-          <p
-            class="mb-1 text-sm font-normal leading-none text-blue-500 dark:text-blue-500 pr-10"
-            >Belgrade, Serbia</p>
-          </div>
-          <div class="flex items-end">
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-              .NET Developer
-            </h3>
-            <p class="text-lg pl-2 text-gray-900 dark:text-white">
-              - ProSoft DOO
-            </p>
-          </div>
-          <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-            Development of WPF business and client applications.
-          </p>
-          <div class="flex items-start pt-1 justify-start">
-            <h4 class="text-base italic text-gray-500 dark:text-gray-400">
-              Technologies:
-            </h4>
-            <p class="text-base pl-2 text-gray-700 dark:text-gray-400">
-              C#, .NET Framework, WPF, SQL Server
-            </p>
-          </div>
-        </li>
         <li class="ml-4"  data-aos="fade-right" 
         data-aos-easing="ease-in-sine">
           <div
@@ -155,7 +157,7 @@
           <div class="flex justify-between flex-col sm:flex-row">
             <time
             class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
-            >January 2020 - July 2021</time
+            >January 2020 - October 2021</time
           >
           <p
             class="mb-1 text-sm font-normal leading-none text-blue-500 dark:text-blue-500 pr-10"
@@ -184,6 +186,7 @@
             </p>
           </div>
         </li>
+        
       </ol>
     </div>
   </div>
