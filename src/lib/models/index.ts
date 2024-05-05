@@ -1,5 +1,5 @@
 type NavItem = {
     id: string;
     title: string;
-    isActive: boolean;
+    item: any;
 }

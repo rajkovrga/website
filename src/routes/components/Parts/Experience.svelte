@@ -1,16 +1,23 @@
-<div id="experience" class="flex justify-center pt-24">
+<script lang="ts">
+  import { inview } from "svelte-inview";
+
+  let id: string;
+  export let enterFunc: (id: int) => void;
+</script>
+
+<div class="flex justify-center  pt-32">
   <div class="w-full xl:w-9/12 2xl:w-7/12">
     <div class="flex pl-5 ">
       <h3 class="border-b-4 text-xl pb-2 mb-10 pr-10">Experience</h3>
     </div>
-    <div class="pl-10 pb-24">
+    <div class="pl-10 pb-24 ">
       <ol class=" relative border-l border-blue-200 dark:border-gray-700 sm:w-4/5 w-full">
-        <li class="ml-4"  data-aos="fade-right" 
+        <li class="ml-4 pb-10"  data-aos="fade-right"
         data-aos-easing="ease-in-sine">
           <div
             class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
           />
-          
+
           <div class="flex justify-between flex-col sm:flex-row">
             <time
             class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
@@ -42,7 +49,7 @@
             </p>
           </div>
         </li>
-        <li class="mb-10 ml-4"  data-aos="fade-right" 
+        <li class="mb-10 ml-4"  data-aos="fade-right"
         data-aos-easing="ease-in-sine">
           <div
             class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
@@ -77,6 +84,7 @@
             </p>
           </div>
         </li>
+        <div id="{id}" use:inview on:enter={() => enterFunc(id)}></div>
         <li class="mb-10 ml-4"  data-aos="fade-right"
         data-aos-easing="ease-in-sine">
           <div

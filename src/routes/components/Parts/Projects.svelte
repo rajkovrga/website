@@ -1,8 +1,12 @@
 <script lang="ts">
     import blaster from "$lib/assets/images/blaster-logo.jpg";
     import easyWindows from "$lib/assets/images/easy-windows-logo.png";
+    import { inview } from "svelte-inview";
+
+    let id: string;
+    export let enterFunc: (id: int) => void;
 </script>
-<div id="projects" class="flex justify-center pb-0 md:pb-20 pt-24">
+<div class="flex justify-center pb-0 md:pb-20  pt-32">
     <div class="w-full xl:w-9/12 2xl:w-7/12">
         <div class="flex pl-5">
             <h3 class="border-b-4 text-xl pb-2 pr-10">Projects</h3>
@@ -35,6 +39,6 @@
                 </div>
             </div>
         </div>
-       
+        <div id="{id}" use:inview on:enter={() => enterFunc(id)}></div>
     </div>
 </div>

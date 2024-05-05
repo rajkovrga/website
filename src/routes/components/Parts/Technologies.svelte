@@ -5,9 +5,13 @@
     import laravel from "$lib/assets/images/laravel.png";
     import postgres from "$lib/assets/images/postgres.png";
     import mongo from "$lib/assets/images/mongo.png";
+    import { inview } from "svelte-inview";
+
+    let id: string;
+    export let enterFunc: (id: int) => void;
 </script>
 
-<div id="skills" class="flex justify-center  pt-32">
+<div class="flex justify-center pt-32">
     <div class="w-full xl:w-9/12 2xl:w-7/12"> 
            <div class="flex pl-5">
         <h3 class="border-b-4 text-xl pb-2 pr-10">Skills</h3>
@@ -33,6 +37,7 @@
         <div class="flex justify-center">
             <img class="w-28 h-24 grayscale hover:grayscale-0 transition duration-500 ease-in-out" src={jira} alt="jira" />
         </div>
+        <div use:inview on:enter={() => enterFunc(id)}></div>
     </div>
 </div>
 

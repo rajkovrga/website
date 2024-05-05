@@ -1,6 +1,9 @@
 <script lang="ts">
   import { createForm } from "svelte-forms-lib";
+  import { inview } from "svelte-inview";
   import * as yup from "yup";
+  let id: string;
+  export let enterFunc: (id: int) => void;
 
   const { form, errors, state, handleChange, handleSubmit } = createForm({
     initialValues: {
@@ -22,7 +25,7 @@
   });
 </script>
 
-<div class="flex justify-center">
+<div class="flex justify-center pt-32">
   <div id="contact" class="w-full my-0 xl:w-9/12 mb-4 px-3 pt-0 mx-auto">
     <section class="mb-32 text-gray-800 w-full text-center">
       <div class="px-6 py-20 md:py-0 md:px-12 w-full">
@@ -50,6 +53,7 @@
                       id="subject"
                       placeholder="Subject"
                     />
+                    <div use:inview on:enter={() => enterFunc(id)}></div>
                     {#if $errors.subject}
                       <div class="flex justify-start pt-2 pl-2">
                         <span class="text-sm text-left text-red-600">
@@ -120,7 +124,6 @@
         </div>
       </div>
     </section>
-    <!-- Section: Design Block -->
   </div>
 </div>
 

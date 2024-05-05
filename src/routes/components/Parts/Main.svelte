@@ -1,11 +1,15 @@
 <script lang="ts">
     import myImg from "$lib/assets/images/my-img.png";
+    import { inview } from "svelte-inview";
+
+    let id: string;
+    export let enterFunc: (id: int) => void;
 </script>
 
-<div
-    id="home"
-    class="flex pt-10 border-primary md:pb-10 border-b-0 md:border-b-2 md:justify-center items-center flex-col-reverse justify-center md:flex-row"
+<div id={id}
+    class="flex pt-32 pt-10 border-primary md:pb-10 border-b-0 md:border-b-2 md:justify-center items-center flex-col-reverse justify-center md:flex-row"
 >
+    <div use:inview on:enter={() => enterFunc(id)}></div>
     <div class="w-full xl:w-9/12 2xl:w-7/12 pl-5 min-h-96 flex justify-center items-center md:justify-between flex-col-reverse md:flex-row ">
         <div class="pt-16 w-4/5 md:w-1/2">
             <h1 class="pl-1 text-xl font-bold text-blue-700">Hey, I'm</h1>
