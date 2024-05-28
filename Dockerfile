@@ -33,7 +33,7 @@ COPY ./static static/
 
 RUN apk update \
     && npm install -g pnpm \
-    && pnpm install --frozen-lockfile --prod
+    && pnpm install --no-frozen-lockfile --prod
 
 EXPOSE 3000
 
