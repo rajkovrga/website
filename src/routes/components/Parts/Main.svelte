@@ -12,10 +12,10 @@
     <div use:inview on:enter={() => enterFunc(id)}></div>
     <div class="w-full xl:w-9/12 2xl:w-7/12 pl-5 min-h-96 flex justify-center items-center md:justify-between flex-col-reverse md:flex-row ">
         <div class="pt-16 w-4/5 md:w-1/2">
-            <h1 class="pl-1 text-xl font-bold text-blue-700">Hey, I'm</h1>
+            <h1 class="pl-1 text-xl font-bold text-purple-700">Hey, I'm</h1>
 
             <h1 class="pl-0 text-5xl font-semibold">Rajko Vrga</h1>
-            <h2 class="pl-1 text-xl pt-6 text-blue-500">
+            <h2 class="pl-1 text-xl pt-6 text-purple-500">
                 Full Stack Developer
             </h2>
             <p class="pl-1 pt-4 pr-7">
@@ -26,7 +26,7 @@
             <div class="ml-1 pt-6">
                 <a
                     href="#contact"
-                    class="bg-blue-600 text-white font-medium text-sm leading-tight rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-500 ease-in-out py-3 px-6"
+                    class="bg-purple-600 text-white font-medium text-sm leading-tight rounded shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-500 ease-in-out py-3 px-6"
                     >Get in touch</a
                 >
             </div>
@@ -34,7 +34,7 @@
         <div class="w-80 md:mr-20 mr-0 h-full -mb-10 relative justify-center">
             <div class="absolute w-full h-full top-0">
                 <div
-                    class="absolute top-14 -left-8 h-60 w-60 rounded-full bg-blue-50"
+                    class="absolute top-14 -left-8 h-60 w-60 rounded-full bg-purple-50"
                 >
                     <a
                         target="_blank"
@@ -56,7 +56,7 @@
                     </a>
                 </div>
                 <div
-                    class="absolute bottom-0 right-0 h-44 w-44 rounded-full border-2 border-blue-400"
+                    class="absolute bottom-0 right-0 h-44 w-44 rounded-full border-2 border-purple-400"
                 >
                     <a
                         target="_blank"

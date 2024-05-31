@@ -14,9 +14,6 @@
 </script>
 
 <style>
-    .active {
-        color: deepskyblue;
-    }
 </style>
 
 <nav
@@ -47,9 +44,9 @@
                 >
                     {#each sections as item}
                         <a
-                                class:active={activeSectionId === item.id}
+                                class:text-purple-950={activeSectionId === item.id}
                                 href="#{item.id}"
-                                class="inline-flex items-center py-4 px-3 text-sm font-semibold text-gray-600">{item.title}</a
+                                class="inline-flex items-center py-4 px-3 text-sm font-semibold text-gray-400">{item.title}</a
                         >
                     {/each}
                     <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
@@ -88,10 +85,10 @@
         <div class="space-y-1 pb-3 pt-2">
             {#each sections as item}
                 <a
-                        class:active={activeSectionId === item.id}
+                        class:text-purple-950={activeSectionId === item.id}
                         href="#{item.id}"
                         on:click={clickNavItem}
-                        class="block border-transparent py-2 pl-3 pr-4 text-base text-center font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">{item.title}</a
+                        class="block border-transparent py-2 pl-3 pr-4 text-base text-center font-medium text-gray-400 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">{item.title}</a
                 >
             {/each}
         </div>

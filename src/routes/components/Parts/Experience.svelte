@@ -11,11 +11,11 @@
       <h3 class="border-b-4 text-xl pb-2 mb-10 pr-10">Experience</h3>
     </div>
     <div class="pl-10 pb-24 ">
-      <ol class=" relative border-l border-blue-200 dark:border-gray-700 sm:w-4/5 w-full">
+      <ol class=" relative border-l border-violet-200 dark:border-gray-700 sm:w-4/5 w-full">
         <li class="ml-4 pb-10"  data-aos="fade-right"
         data-aos-easing="ease-in-sine">
           <div
-            class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            class="absolute w-3 h-3 bg-violet-500 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
           />
 
           <div class="flex justify-between flex-col sm:flex-row">
@@ -24,7 +24,7 @@
             >October 2022 - Present</time
           >
           <p
-            class="mb-1 text-sm font-normal leading-none text-blue-500 dark:text-blue-500 pr-10"
+            class="mb-1 text-sm font-normal leading-none text-violet-500 dark:text-violet-500 pr-10"
             >Remote</p>
           </div>
           <div class="flex items-end">
@@ -52,7 +52,7 @@
         <li class="mb-10 ml-4"  data-aos="fade-right"
         data-aos-easing="ease-in-sine">
           <div
-            class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            class="absolute w-3 h-3 bg-violet-500 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
           />
           <div class="flex justify-between flex-col sm:flex-row">
             <time
@@ -60,7 +60,7 @@
             >August 2022 - April 2023</time
           >
           <p
-            class="mb-1 text-sm font-normal leading-none text-blue-500 dark:text-blue-500 pr-10"
+            class="mb-1 text-sm font-normal leading-none text-violet-500 dark:text-violet-500 pr-10"
             >Remote</p>
           </div>
           
@@ -69,7 +69,7 @@
               Backend Developer - Umbraco
             </h3>
             <p class="text-lg pl-2 text-gray-900 dark:text-white">
-              - Blue Poles
+              - violet Poles
             </p>
           </div>
           <p class="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -88,7 +88,7 @@
         <li class="mb-10 ml-4"  data-aos="fade-right"
         data-aos-easing="ease-in-sine">
           <div
-            class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            class="absolute w-3 h-3 bg-violet-500 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
           />
           
           <div class="flex justify-between flex-col sm:flex-row">
@@ -97,7 +97,7 @@
             >April 2022 - August 2022</time
           >
           <p
-            class="mb-1 text-sm font-normal leading-none text-blue-500 dark:text-blue-500 pr-10"
+            class="mb-1 text-sm font-normal leading-none text-violet-500 dark:text-violet-500 pr-10"
             >Belgrade, Serbia - Hybrid</p>
           </div>
           <div class="flex items-end">
@@ -122,7 +122,7 @@
         <li class="mb-10 ml-4"  data-aos="fade-right" 
         data-aos-easing="ease-in-sine">
           <div
-            class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            class="absolute w-3 h-3 bg-violet-500 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
           />
           
           <div class="flex justify-between flex-col sm:flex-row">
@@ -131,7 +131,7 @@
             >November 2021 - April 2022</time
           >
           <p
-            class="mb-1 text-sm font-normal leading-none text-blue-500 dark:text-blue-500 pr-10"
+            class="mb-1 text-sm font-normal leading-none text-violet-500 dark:text-violet-500 pr-10"
             >Belgrade, Serbia - Hybrid</p>
           </div>
           
@@ -159,7 +159,7 @@
         <li class="ml-4"  data-aos="fade-right" 
         data-aos-easing="ease-in-sine">
           <div
-            class="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            class="absolute w-3 h-3 bg-violet-500 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
           />
           
           <div class="flex justify-between flex-col sm:flex-row">
@@ -168,7 +168,7 @@
             >January 2020 - October 2021</time
           >
           <p
-            class="mb-1 text-sm font-normal leading-none text-blue-500 dark:text-blue-500 pr-10"
+            class="mb-1 text-sm font-normal leading-none text-violet-500 dark:text-violet-500 pr-10"
             >Belgrade, Serbia - Hybrid</p>
           </div>
           <div class="flex items-end">
