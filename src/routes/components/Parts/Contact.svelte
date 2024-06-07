@@ -30,13 +30,13 @@
             }).then((response) => {
                 if (response) {
                     message = 'email sent';
+                    isSendError = false;
                 }
             })
                 .catch(() => {
                     message = 'email error'
+                    isSendError = true;
                 });
-
-
         },
     });
 </script>

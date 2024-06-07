@@ -31,6 +31,7 @@ COPY ./package.json .
 COPY ./pnpm-lock.yaml .
 COPY ./static static/
 
+
 RUN apk update \
     && npm install -g pnpm \
     && pnpm install --no-frozen-lockfile --prod
