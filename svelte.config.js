@@ -8,8 +8,6 @@ if (process.env.NODE_ENV === 'production') {
 	assertUrl = process.env.ASSETS_URL;
 }
 
-dotenv.config();
-
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	preprocess: vitePreprocess(),
