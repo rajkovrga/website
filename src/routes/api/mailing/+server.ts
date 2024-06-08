@@ -1,4 +1,4 @@
-import { env } from '$env/dynamic/private';
+import { env } from '$env/dynamic/public';
 import nodemailer from 'nodemailer';
 import {json} from '@sveltejs/kit';
 
