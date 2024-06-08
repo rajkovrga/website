@@ -1,11 +1,14 @@
 import adapter from '@sveltejs/adapter-node';
 import { vitePreprocess } from '@sveltejs/kit/vite';
+import dotenv from 'dotenv';
 
 let assertUrl = '';
 
 if (process.env.NODE_ENV === 'production') {
 	assertUrl = process.env.ASSETS_URL;
 }
+
+dotenv.config();
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
