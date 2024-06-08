@@ -21,7 +21,7 @@
             message: yup.string().required().min(10),
         }),
         onSubmit: (values) => {
-            let result = fetch('/api/mailing', {
+            fetch('/api/mailing', {
                 method: 'POST',
                 body: JSON.stringify(values),
                 headers: {
