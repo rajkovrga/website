@@ -11,8 +11,6 @@ WORKDIR /app
 
 COPY . .
 
-COPY .env /app/dist/.env
-
 RUN apk update \
     && apk add curl gcc make \
     && npm install -g pnpm \

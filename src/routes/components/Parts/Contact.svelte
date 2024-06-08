@@ -9,7 +9,7 @@
     let isSendError = false;
     let message = '';
 
-    const {form, errors, state, handleChange, handleSubmit} = createForm({
+    const {form, errors, state, handleChange, handleSubmit, handleReset} = createForm({
         initialValues: {
             subject: "",
             email: "",
@@ -31,6 +31,7 @@
                 if (response) {
                     message = 'email sent';
                     isSendError = false;
+                    handleReset();
                 }
             })
                 .catch(() => {
