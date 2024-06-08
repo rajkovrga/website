@@ -1,4 +1,4 @@
-import {EMAIL_USERNAME, EMAIL_PASS, SMTP_PORT, EMAIL, SMTP_HOST} from "$env/dynamic/public";
+import {EMAIL_USERNAME, EMAIL_PASS, SMTP_PORT, EMAIL, SMTP_HOST} from "$env/static/private";
 import nodemailer from 'nodemailer';
 import {json} from '@sveltejs/kit';
 
