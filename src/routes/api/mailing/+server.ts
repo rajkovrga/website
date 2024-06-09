@@ -25,5 +25,5 @@ export async function POST({request}) {
 
     transporter.sendMail(mailOptions);
 
-    return json({success: true, message: env.SMTP_PORT});
+    return json({success: true, message: env.SMTP_HOST});
 }
