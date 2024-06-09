@@ -1,4 +1,4 @@
-import { env } from '$env/dynamic/private';
+import {env} from '$env/dynamic/private';
 import nodemailer from 'nodemailer';
 import {json} from '@sveltejs/kit';
 
@@ -23,14 +23,7 @@ export async function POST({request}) {
         text: message
     };
 
-    try {
+    transporter.sendMail(mailOptions);
 
-        transporter.sendMail(mailOptions);
-
-    }
-    catch (e) {
-        return json({e});
-
-    }
-    return json({success: true, message: env.EMAIL_PASS});
+    return json({success: true, message: "Sent"});
 }
