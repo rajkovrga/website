@@ -23,7 +23,14 @@ export async function POST({request}) {
         text: message
     };
 
-    transporter.sendMail(mailOptions);
+    try {
 
-    return json({success: true, message: env.SMTP_HOST});
+        transporter.sendMail(mailOptions);
+
+    }
+    catch (e) {
+        return json({e});
+
+    }
+    return json({success: true, message: env.EMAIL_PASS});
 }
